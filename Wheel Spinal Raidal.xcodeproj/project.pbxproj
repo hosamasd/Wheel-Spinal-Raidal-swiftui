@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4A67362588DE0D00F8C318 /* FunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A67332588DE0D00F8C318 /* FunctionButton.swift */; };
+		4E4A67372588DE0D00F8C318 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A67342588DE0D00F8C318 /* Home.swift */; };
+		4E4A67382588DE0D00F8C318 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A67352588DE0D00F8C318 /* Option.swift */; };
+		4E4A673C2588DE2300F8C318 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A673B2588DE2300F8C318 /* HomeViewModel.swift */; };
 		9FCC5E71257C2383002B6AFA /* Wheel_Spinal_RaidalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC5E70257C2383002B6AFA /* Wheel_Spinal_RaidalApp.swift */; };
 		9FCC5E73257C2383002B6AFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC5E72257C2383002B6AFA /* ContentView.swift */; };
 		9FCC5E75257C2384002B6AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCC5E74257C2384002B6AFA /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E4A67332588DE0D00F8C318 /* FunctionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionButton.swift; sourceTree = "<group>"; };
+		4E4A67342588DE0D00F8C318 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4E4A67352588DE0D00F8C318 /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		4E4A673B2588DE2300F8C318 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9FCC5E6D257C2383002B6AFA /* Wheel Spinal Raidal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel Spinal Raidal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCC5E70257C2383002B6AFA /* Wheel_Spinal_RaidalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel_Spinal_RaidalApp.swift; sourceTree = "<group>"; };
 		9FCC5E72257C2383002B6AFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +41,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4A67312588DDFA00F8C318 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A67332588DE0D00F8C318 /* FunctionButton.swift */,
+				4E4A67342588DE0D00F8C318 /* Home.swift */,
+				4E4A67352588DE0D00F8C318 /* Option.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E4A67322588DE0000F8C318 /* scenens */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC5E72257C2383002B6AFA /* ContentView.swift */,
+			);
+			path = scenens;
+			sourceTree = "<group>";
+		};
+		4E4A673A2588DE1800F8C318 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				4E4A673B2588DE2300F8C318 /* HomeViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
 		9FCC5E64257C2383002B6AFA = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				9FCC5E70257C2383002B6AFA /* Wheel_Spinal_RaidalApp.swift */,
-				9FCC5E72257C2383002B6AFA /* ContentView.swift */,
+				4E4A673A2588DE1800F8C318 /* viewmodel */,
+				4E4A67312588DDFA00F8C318 /* view */,
+				4E4A67322588DE0000F8C318 /* scenens */,
 				9FCC5E74257C2384002B6AFA /* Assets.xcassets */,
 				9FCC5E79257C2384002B6AFA /* Info.plist */,
 				9FCC5E76257C2384002B6AFA /* Preview Content */,
@@ -139,7 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCC5E73257C2383002B6AFA /* ContentView.swift in Sources */,
+				4E4A673C2588DE2300F8C318 /* HomeViewModel.swift in Sources */,
 				9FCC5E71257C2383002B6AFA /* Wheel_Spinal_RaidalApp.swift in Sources */,
+				4E4A67382588DE0D00F8C318 /* Option.swift in Sources */,
+				4E4A67372588DE0D00F8C318 /* Home.swift in Sources */,
+				4E4A67362588DE0D00F8C318 /* FunctionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
